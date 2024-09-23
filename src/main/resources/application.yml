@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nomeSenha
+  datasource:
+    url: "jdbc:postgresql://dpg-croapea3esus73bvqj00-a:5432/nome_senha"
+    username: nome_senha_user
+    password: U3OKUoIgjc1YvmHFj8IIR1XUYxT9LAw7
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
